@@ -1,0 +1,87 @@
+London System: Best Opening For Beginners
+1.d4 d5 2.Bf4 or 1.d4, 2.Nf3, and 3.Bf4
+
+London System Main Line
+Main Line of the London System
+The London System is an excellent opening for White because of its versatility. White can play the London against many different defenses from Black. This also makes it easier and faster to practice because you can play it more often.
+
+The London has gained a reputation for being too boring and dull since the main line and attacking strategy is for the most part, the exact same every single time you play it. However, this doesn’t have to be the case, there are ways of putting pressure on your opponent earlier than usual in the game. The main line for White is 1. d4 2. Bf4 3. Nf3 4. e3. Depending on what Black plays, the sequence of the 2nd, 3rd, and 4th moves may be different, but those moves will be made.
+
+The London is one of the best openings for beginners with the White pieces because of its ease of learning and the fact that it’s a system. Meaning it can be played against nearly anything Black plays. For more information, see the step-by-step tutorial on how to play the London System opening.
+
+Why It’s One of The Best
+Ease of learning.
+You’re able to play it against nearly anything Black plays.
+The attacking strategy is straightforward, coordinating an attack on the King using the diagonals with the light squared Bishop and Queen.
+Danish Gambit: Best Opening For Rapid Development
+1. e4 e5 2. d4 exd4 3. c3
+
+Danish Gambit Main Line
+Danish Gambit Main Line
+Many players will tell you that playing tricks and gambits in the opening isn’t the “right” way to learn Chess because you’re not learning the opening principles because you’re hoping your opponent will fall for some trick. However, this isn’t always the case. The Danish Gambit, as well as a few other select gambits are sound openings regardless of whether or not your opponent accepts the gambit. And besides, Chess also has to be fun, and the Danish loads of fun to play.
+
+A common line in the Danish is 3…dxc3 and if you’re unfamiliar with the Danish, you may think well, you have to recapture the pawn now right? Actually you can sacrifice yet another pawn and just develop a piece, commonly 4. Bc4. And Black could take accept another gambit with 4…cxb2 and now White would recapture with 5. Bxb2.
+
+Danish Gambit Rapid Development
+Rapid Development For White at the Cost of Two Pawns
+Now look at this position. White has a pawn in the center as well as a Bishop. And White’s other Bishop is out. Now look at Black. Cricket’s anyone? Black doesn’t have one piece developed.
+
+White sacrificed three pawns in exchange for a massive lead in development. Was is worth it? Absolutely. It’s not uncommon for White to win in less than ten moves if Black accepts the Danish.
+
+There are possible drawbacks to be aware of when playing this gambit. After the beginner level ratings, stronger intermediate players are going to know what to play against the Danish. For example, this is a common line that Black could respond with that leads to a disadvantage for White, even after accepting all three of the gambit pawns.
+
+Why It’s One of The Best
+White can gain a massive gain in development for the cost of just two or three pawns.
+It’s fun to play which will help encourage you to keep learning, practicing, and improving.
+Evans Gambit: Best Opening For Attacking
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4
+
+Evans Gambit Main Line
+Evans Gambit Main Line
+The Evans Gambit is one of the top openings for White because it’s one of the few gambits that gives Black a worse position if the gambit is declined. Thus accepting the gambit is better for Black, but this also means Black is accepting the gambit which is exactly what White wants.
+White gambits a wing-pawn in exchange for development and controlling the center. This line also generates an exciting game for White in terms of attacking.
+
+You’ll see the Evans being played with ratings ranging from beginners at 800 all the way to Grandmaster players above 2600. In fact, Paul Morphy who is arguably the best Chess player to ever live was a frequent player of the Evans Gambit. Garry Kasparov also won brilliantly with this gambit. Furthermore, one of the strongest Chess engines in existence called AlphaZero, played the Evans Gambit in a game against another top engine Stockfish with estimated FIDE ratings of 3200.
+
+For more information, see the complete guide on how to play the Evans Gambit.
+Why It’s One of The Best
+It is difficult to play against because declining the gambit results in a worse position for Black.
+You can play the Evans Gambit from beginner level rating all the way to the Grandmaster level.
+Makes for exciting games for White with victories commonly due to attacking strategies.
+The top engines prove that it’s a strong opening by playing it against other engines.
+Ruy Lopez: Best Opening For Theory
+1. e4 e5 2. Nf3 Nc6 3. Bb5
+
+Ruy Lopez Opening Main Line
+Ruy Lopez Opening Main Line
+In terms of lore, the Ruy Lopez opening takes the crown. It’s one of the oldest openings in the entire game of Chess dating back to the fifteenth century, and has stood the test of time all the way to present day where it’s still played regularly. But does age automatically mean it’s one of the best? Absolutely not. However in this case of the Ruy Lopez, it’s true. All of the World Champions have played it multiple times.
+
+The  strength of the opening really begins when White plays 3. Bb5 where Black must combat this strong position on the next move. The variations that can develop from the main line are long and complicated, which is to be expected when an opening has been analyzed with a fine tooth comb over the course of more than five hundred years and counting.
+
+The Ruy Lopez employs all of the principles that have been established over the centuries that make a strategy advantageous for White. For more details, see the step-by-step guide on how to play the Ruy Lopez opening.
+
+Why It’s One of The Best
+One of the oldest openings of all and has stood the test of time.
+Played by every World Champion in major tournaments.
+Many different variations to play from that have been analyzed for hundreds of years proving to be effective.
+Employs all of the principles of Chess.
+Scotch Game: Best Opening For Simplicity
+1. e4 e5 2. Nf3 Nc6 3. d4
+
+Scotch Game Main Line
+Main Line of the Scotch Game
+The Scotch Game has been played by the GOAT of Chess himself, Garry Kasparov to win three successive World Championship matches in the 1990’s. The Scotch has been declared an alternative to the Ruy Lopez, since the first couple moves are the same. It’s a simple, straightforward, solid opening to play with the White pieces.
+
+White plays 3. d4 forcing Black to give up control in the center with 3… exd4, which then White can re-capture with 4. Nxd4. Black then has to pick one of many different options, more commonly is to either attack the e-pawn with 4… Qh4 or 4… Nf6. The Scotch Gambit is also a variation that can be played to mix things up and have a more lively game which is 4. Bc4 instead of playing 4. Nxd4 For a more detailed tutorial, see the guide on how to play the Scotch Game.
+
+Why The Scotch Game is One of The Best
+Played by top Grandmasters to win World Championship matches.
+Solid and straightforward line making it easy to memorize and play.
+An alternative opening to play for Ruy Lopez players, which nearly every serious player is.
+The development of the pieces make for very active pieces early on in the game as opposed to pieces not becoming more active until the middlegame.
+Italian Game: Best Opening For Intermediates
+1. e4 e5 2. Nf3 Nc6 3. Bc4 
+
+Italian Game Main Line
+Main Line of the Italian Game
+The Italian Game is one another opening that develops pieces in a straightforward logical sequence. Like the Ruy Lopez, is has stood the test of time for more than four hundred years and is still played today. If you’d like to learn more about this opening, you can read the entire guide on the Italian Game.
