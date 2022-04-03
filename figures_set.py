@@ -10,3 +10,9 @@ class Figures:
 
     def move(self, new_coor):
         self.coor = new_coor
+
+    def eaten_status(self, status):
+        self.eaten = status
+
+    def possible_moves(self, moves):
+        self.pos_moves = moves

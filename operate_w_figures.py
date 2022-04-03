@@ -62,10 +62,10 @@ not_pawns = ['r', 'R', 'b', 'B', 'n', 'N']
 for i in range(0, len(list_of_nots)):
     m = get_move(list_of_nots[i])
     f = get_fig(list_of_nots[i])
-    if i % 2 == 0:
+    if i % 2 == 0:  # whites move
         if f == 'p':
             figures[moving_pawn(m, figures, 0)].move(m)
-    else:
+    else:  # blacks move
         if f == 'p':
             figures[moving_pawn(m, figures, 1)].move(m)
 
