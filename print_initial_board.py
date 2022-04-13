@@ -7,8 +7,6 @@ def draw_figure(filename, window, coor):
 
 
 def init_coor_dict(metric, step):
-    metric = 31.25
-    step = 2 * metric
     pairs = []
     for i in range(1, 9):
         for j in range(1, 9):

@@ -19,3 +19,6 @@ class Figures:
 
     def promotion(self, status):
         self.promoted = status
+
+    def set_image(self, filename):
+        self.image = filename
