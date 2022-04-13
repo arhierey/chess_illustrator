@@ -16,3 +16,6 @@ class Figures:
 
     def possible_moves(self, moves):
         self.pos_moves = moves
+
+    def promotion(self, status):
+        self.promoted = status

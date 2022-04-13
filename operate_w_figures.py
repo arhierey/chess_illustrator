@@ -51,6 +51,16 @@ def moving_pawn(move, figures_dict, wb):
     return res
 
 
+def is_promoted(move, figures_dict, figname, wb):
+    if wb == 0 and move[1] == 8:
+        figures_dict[figname].eaten_status(True)
+        figures_dict['Q1'] = Figures('Q1')
+    elif wb == 1 and move[1] == 1:
+        figures_dict[figname].eaten_status(True)
+        figures_dict['q1'] = Figures('q1')
+    return 0
+
+
 list_of_nots = ['1.d4', 'Nf6', '2.c4', 'g6', '3.Nc3', 'Bg7', '4.e4', 'd6']
 
 figures = initialize()
