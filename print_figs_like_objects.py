@@ -1,5 +1,6 @@
 from figures_set import Figures
 from graphics import *
+import random as rnd
 
 
 def set_colours(fig_dict):
@@ -115,7 +116,8 @@ def initialize():
 
 def print_figures(fig_dict, win, coor_dict):
     for key in fig_dict.keys():
-        draw_figure(fig_dict[key].image, win, coor_dict[fig_dict[key].coor])
+        if not fig_dict[key].eaten:
+            draw_figure(fig_dict[key].image, win, coor_dict[fig_dict[key].coor])
 
 
 def draw_figure(filename, window, coor):
@@ -132,6 +134,23 @@ def init_coor_dict(metric, step):
         return coor_dict
 
 
+def coor_to_field(coor, coor_dict):
+    res = None
+    for key in coor_dict.keys():
+        if coor == coor_dict[key]:
+            res = key
+    return res
+
+
+def random_coors(fig_dict, coor_dict, metric, step):
+    for key in fig_dict.keys():
+        if not fig_dict[key].eaten:
+
+            coor = [metric + rnd.randint(0, 7)*step, metric + rnd.randint(0, 7)*step]
+
+            fig_dict[key].set_coor(coor_to_field(coor, coor_dict))
+
+
 coor_dict = init_coor_dict(31.25, 62.5)
 
 figures = initialize()
@@ -139,9 +158,17 @@ images = init_images_dict()
 set_images(figures, images)
 
 win = GraphWin('Board', 500, 500)
-draw_figure('tiles/board.png', win, [250, 250])
 
-print_figures(figures, win, coor_dict)
+run = 0
+while run == 0:
+    draw_figure('tiles/board.png', win, [250, 250])
+    print_figures(figures, win, coor_dict)
 
-win.getMouse()
+    win.getMouse()
+
+    random_coors(figures, coor_dict, 31.25, 62.5)
+
+    if rnd.random() > 0.98:
+        run = 1
+
 win.close()
