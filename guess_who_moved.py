@@ -1,6 +1,5 @@
-from figures_set import Figures
-from graphics import *
 import random as rnd
+from figures_set import Figures
 
 
 def set_colours(fig_dict):
@@ -57,33 +56,6 @@ def set_start_coors(fig_dict):
             fig_dict[key].set_coor('e1')
 
 
-def set_images(fig_dict, images):
-    for key in fig_dict.keys():
-        fig_dict[key].set_image(images[key[0]])
-
-
-def init_images_dict():
-    b = 'tiles/black_'
-    w = 'tiles/white_'
-    e = '.png'
-    pairs = []
-    pairs.append(['p', b + 'pawn' + e])
-    pairs.append(['P', w + 'pawn' + e])
-    pairs.append(['q', b + 'queen' + e])
-    pairs.append(['Q', w + 'queen' + e])
-    pairs.append(['k', b + 'king' + e])
-    pairs.append(['K', w + 'king' + e])
-    pairs.append(['r', b + 'rook' + e])
-    pairs.append(['R', w + 'rook' + e])
-    pairs.append(['b', b + 'bishop' + e])
-    pairs.append(['B', w + 'bishop' + e])
-    pairs.append(['n', b + 'knight' + e])
-    pairs.append(['N', w + 'knight' + e])
-
-    images_dict = dict(pairs)
-    return images_dict
-
-
 def initialize():
     names = ['p'+str(i) for i in range(0, 8)]
     names.extend(['P'+str(i) for i in range(0, 8)])
@@ -114,24 +86,13 @@ def initialize():
     return figs
 
 
-def print_figures(fig_dict, win, coor_dict):
-    for key in fig_dict.keys():
-        if not fig_dict[key].eaten:
-            draw_figure(fig_dict[key].image, win, coor_dict[fig_dict[key].coor])
-
-
-def draw_figure(filename, window, coor):
-    image = Image(Point(coor[0], coor[1]), filename)
-    image.draw(window)
-
-
 def init_coor_dict(metric, step):
-        pairs = []
-        for i in range(1, 9):
-            for j in range(1, 9):
-                pairs.append((chr(96 + i) + str(9 - j), [metric + (i - 1) * step, metric + (j - 1) * step]))
-        coor_dict = dict(pairs)
-        return coor_dict
+    pairs = []
+    for i in range(1, 9):
+        for j in range(1, 9):
+            pairs.append((chr(96 + i) + str(9 - j), [metric + (i - 1) * step, metric + (j - 1) * step]))
+    coor_dict = dict(pairs)
+    return coor_dict
 
 
 def coor_to_field(coor, coor_dict):
@@ -142,33 +103,27 @@ def coor_to_field(coor, coor_dict):
     return res
 
 
-def random_coors(fig_dict, coor_dict, metric, step):
-    for key in fig_dict.keys():
-        if not fig_dict[key].eaten:
+def generate_move(metric, step, coor_dict):
+    pieces = ['', 'K', 'Q', 'R', 'B', 'N']
+    num = rnd.randint(1, 25)
+    fig = pieces[rnd.randint(0, 5)]
+    coor = [metric + rnd.randint(0, 7)*step, metric + rnd.randint(0, 7)*step]
+    field = coor_to_field(coor, coor_dict)
 
-            coor = [metric + rnd.randint(0, 7)*step, metric + rnd.randint(0, 7)*step]
+    if rnd.random() > 0.5:
+        move = '{0}.{1}{2}'.format(num, fig, field)
+    else:
+        move = '{0}{1}'.format(fig, field)
 
-            fig_dict[key].set_coor(coor_to_field(coor, coor_dict))
+    return move
 
-
-coor_dict = init_coor_dict(31.25, 62.5)
 
 figures = initialize()
-images = init_images_dict()
-set_images(figures, images)
+coor_dict = init_coor_dict(31.25, 62.5)
+for i in range(0, 100):
+    move = generate_move(31.25, 62.5, coor_dict)
+    print(move)
 
-win = GraphWin('Board', 500, 500)
 
-run = 0
-while run == 0:
-    draw_figure('tiles/board.png', win, [250, 250])
-    print_figures(figures, win, coor_dict)
 
-    win.getMouse()
 
-    random_coors(figures, coor_dict, 31.25, 62.5)
-
-    if rnd.random() > 0.6:
-        run = 1
-
-win.close()
